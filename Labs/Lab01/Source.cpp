@@ -18,6 +18,5 @@ int main()
 	cout << "Hello Squirrels!" << endl;
 
 	cout << "The product of 47 x 47 is: ";
-	cout << 47 x 47;
-
+	cout << 47 * 47;
 }
