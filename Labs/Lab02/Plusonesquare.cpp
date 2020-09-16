@@ -13,11 +13,12 @@ using std::endl;
 
 int main()
 { 
+
 int n;
 cout << "Please type an integer and press return" << endl;
 cin >> n;
 cout << "You typed the integer: " << n << endl;
-cout << "Your integer has been modified: " << (n + 1) * n << endl;
+cout << "Your integer has been modified: " << (n + 1) * (n + 1) << endl;
 cout << "The above result is your integer plus one squared" << endl;
 
 }
