@@ -3,7 +3,7 @@
 * Trey Chiu
 * CS201
 * Sep 16, 2020
-* Function will print string and string length
+* Function prints string and string length
 */
 
 #include <iostream>
@@ -21,7 +21,12 @@ void Printstrsize(string str1)
 int main()
 {
 	string str1("baseketball");
+	string str2("While I am at home I sleep");
+	string str3("This is a longer string than most I have entered");
+	string str4("this is");
 	Printstrsize(str1);
-	
+	Printstrsize(str2);
+	Printstrsize(str3);
+	Printstrsize(str4);
 	return 0;
 }
