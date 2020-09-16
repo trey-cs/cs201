@@ -18,13 +18,13 @@
     <ClCompile Include="Lab07main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\intio.cpp">
+    <ClCompile Include="intio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\intio.hpp">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="intio.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

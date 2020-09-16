@@ -7,9 +7,27 @@
 */
 
 #include "intio.hpp"
+#include <iostream>
+
+using std::cout;
+using std::endl;
 
 int main()
 {
-	int getInt();
-	void putInt();
+	cout << "Input your Favorite number: ";
+	int yournumb = getInt();
+	cout << "Type in your 2nd Favorite number: ";
+	int yournumb2 = getInt();
+	cout << "Type in your 3rd Favorite number: ";
+	int yournumb3 = getInt();
+
+	// lists numbers in aligned column
+	cout << "Here is your list of numbers:\n"; 
+	putInt(yournumb, 10); 
+	cout << endl;
+	putInt(yournumb2, 10); 
+	cout << endl;
+	putInt(yournumb3, 10); 
+	cout << endl;
+	
 }
