@@ -12,12 +12,14 @@ using std::endl;
 
 int main()
 {
-	int i, k = 1;
+	int k = 1;
 	while (k <= 10) // Y dimension
 	{
-		for (i = 1; i <= 60; i++) // X dimension
+		int i = 1;
+		while (i<=60) // X dimension
 		{
 			cout << "*";
+			i++;
 		}
 		cout << endl;
 		k++;
