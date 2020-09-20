@@ -3,7 +3,7 @@
 * Trey Chiu
 * CS201
 * Sep 7, 2020
-* Will 
+* Displays aligned column list of user inputted integers
 */
 
 #include "intio.hpp"
@@ -29,5 +29,6 @@ int main()
 	cout << endl;
 	putInt(yournumb3, 10); 
 	cout << endl;
+	return 0;
 	
 }

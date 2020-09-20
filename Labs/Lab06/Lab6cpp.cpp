@@ -24,6 +24,7 @@ int main()
 	string str2("While I am at home I sleep");
 	string str3("This is a longer string than most I have entered");
 	string str4("this is");
+
 	Printstrsize(str1);
 	Printstrsize(str2);
 	Printstrsize(str3);
