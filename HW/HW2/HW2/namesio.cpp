@@ -17,6 +17,7 @@ using std::vector;
 using std::string;
 using std::getline;
 using std::cin;
+using std::find;
 
 
 void InputNames(vector<string> & names)
@@ -29,6 +30,16 @@ void InputNames(vector<string> & names)
 		names.push_back(name);
 	}
 	return;
+}
+
+/*bool DoesNameExist(const string & nameToFind, const vector<string>& names)
+{
+	if ((find(names.begin(), names.end(), nameToFind) != names.end())
+	{
+		return true;
+	}
+	else
+		return false;
 }
 
 /*void PrintNames(vector<string>names)

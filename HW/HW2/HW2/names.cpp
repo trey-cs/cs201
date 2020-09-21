@@ -15,11 +15,25 @@ using std::vector;
 using std::string;
 using std::cout;
 
+bool DoesNameExist(const string& nameToFind, const vector<string>& names)
+{
+	if (find(names.begin(), names.end(), nameToFind) != names.end())
+	{
+		cout << "The name " << nameToFind << " exists.";
+		return true;
+	}
+	else
+	{
+		cout << "The name " << nameToFind << " does not exist.";
+		return false;
+	}
+}
 
 int main()
 {
 	 vector<string>names;
 	 InputNames(names);
+	 DoesNameExist("travis", names);
 	// PrintNames(names);
 	 return 0;
 }
