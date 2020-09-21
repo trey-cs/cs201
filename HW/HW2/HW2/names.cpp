@@ -14,18 +14,14 @@
 using std::vector;
 using std::string;
 using std::cout;
+using std::endl;
 
-bool DoesNameExist(const string& nameToFind, const vector<string>& names)
+void PrintNames(const vector<string>& names)
 {
-	if (find(names.begin(), names.end(), nameToFind) != names.end())
+	cout << "Here is your list of names:\n";
+	for (int i = 0; i < names.size(); i++)
 	{
-		cout << "The name " << nameToFind << " exists.";
-		return true;
-	}
-	else
-	{
-		cout << "The name " << nameToFind << " does not exist.";
-		return false;
+		cout << names.at(i) << endl;
 	}
 }
 
@@ -34,6 +30,6 @@ int main()
 	 vector<string>names;
 	 InputNames(names);
 	 DoesNameExist("travis", names);
-	// PrintNames(names);
+	 PrintNames(names);
 	 return 0;
 }
