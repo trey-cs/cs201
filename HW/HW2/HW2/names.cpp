@@ -16,20 +16,7 @@ using std::string;
 using std::cout;
 using std::endl;
 
-void ReverseNames(const vector<string>& names)
-{
-	cout << "Here is your original list with each name reversed:\n";
-	for (int i = 0; i < names.size(); i++)
-	{
-		string rvs = names.at(i);
-		for (int j = rvs.length() - 1; j >= 0; j--)
-		{
-			cout << rvs[j];
-		}
-		cout << endl;
-	}
-	return;
-}
+
 
 
 int main()

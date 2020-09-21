@@ -29,6 +29,7 @@ void InputNames(vector<string> & names)
 		getline(cin, name);
 		names.push_back(name);
 	}
+	cout << "\n";
 	return;
 }
 
@@ -36,12 +37,12 @@ bool DoesNameExist(const string & nameToFind, const vector<string> & names)
 {
 	if (find(names.begin(), names.end(), nameToFind) != names.end())
 	{
-		cout << "The name " << nameToFind << " exists." << endl;
+		cout << "The name " << nameToFind << " exists in the list.\n" << endl;
 		return true;
 	}
 	else
 	{
-		cout << "The name " << nameToFind << " does not exist." << endl;
+		cout << "The name " << nameToFind << " does not exist in the list.\n" << endl;
 		return false;
 	}
 }
@@ -52,6 +53,22 @@ void PrintNames(const vector<string>& names)
 	for (int i = 0; i < names.size(); i++)
 	{
 		cout << names.at(i) << endl;
+	}
+	cout << "\n";
+	return;
+}
+
+void ReverseNames(const vector<string>& names)
+{
+	cout << "Here is your original list with each name reversed:\n";
+	for (int i = 0; i < names.size(); i++)
+	{
+		string rvs = names.at(i);
+		for (int j = rvs.length() - 1; j >= 0; j--)
+		{
+			cout << rvs[j];
+		}
+		cout << endl;
 	}
 	return;
 }
