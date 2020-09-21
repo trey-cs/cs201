@@ -19,9 +19,8 @@ using std::getline;
 using std::cin;
 
 
-void InputNames(vector<string>& names)
+void InputNames(vector<string> & names)
 {
-	//vector<string> names;
 	for (int i = 0; i < 10; i++)
 	{
 		string name;
@@ -29,6 +28,7 @@ void InputNames(vector<string>& names)
 		getline(cin, name);
 		names.push_back(name);
 	}
+	return;
 }
 
 /*void PrintNames(vector<string>names)
