@@ -16,14 +16,7 @@ using std::string;
 using std::cout;
 using std::endl;
 
-void PrintNames(const vector<string>& names)
-{
-	cout << "Here is your list of names:\n";
-	for (int i = 0; i < names.size(); i++)
-	{
-		cout << names.at(i) << endl;
-	}
-}
+
 
 int main()
 {

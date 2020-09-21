@@ -16,6 +16,8 @@ using std::string;
 void InputNames(vector<string> & names);
 
 bool DoesNameExist(const string& nameToFind, const vector<string>& names);
+
+void PrintNames(const vector<string>& names);
 //void PrintNames(std::vector<std::string>names);
 
 #endif

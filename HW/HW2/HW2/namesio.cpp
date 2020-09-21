@@ -46,11 +46,11 @@ bool DoesNameExist(const string & nameToFind, const vector<string> & names)
 	}
 }
 
-/*void PrintNames(vector<string>names)
+void PrintNames(const vector<string>& names)
 {
-	for (i = 0; i < names.size(); i++)
+	cout << "Here is your list of names:\n";
+	for (int i = 0; i < names.size(); i++)
 	{
-		cout << "The names are: " << names.at[i];
+		cout << names.at(i) << endl;
 	}
 }
-*/
