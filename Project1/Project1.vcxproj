@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{28e96761-7347-49eb-9f36-22be6f376552}</ProjectGuid>
-    <RootNamespace>HW2</RootNamespace>
+    <ProjectGuid>{9a95b49f-74bc-4edb-8d1b-5adf545a936a}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="names.cpp" />
-    <ClCompile Include="namesio.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="namesio.h" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,30 +3,23 @@
 * Trey Chiu
 * CS201
 * Sep 20, 2020
-* purose
+* Will input 10 names into a vector container
 */
 
+#include "namesio.h"
 #include <iostream>
 #include <vector>
-#include<string>
-#include<algorithm>
-using std::cout;
-using std::endl;
-using std::string;
+#include <string>
+
 using std::vector;
-using std::getline;
-using std::cin;
+using std::string;
+using std::cout;
 
-int main(int argc, char **argv)
+
+int main()
 {
-	vector<string> names;
-	for (int i = 0; i < 10; i++)
-	{
-		string name;
-		cout << "Please enter a name: ";
-		getline(cin, name);
-		names.push_back(name);
-
-	}
-	return 0;
+	 vector<string>names;
+	 InputNames(names);
+	// PrintNames(names);
+	 return 0;
 }
