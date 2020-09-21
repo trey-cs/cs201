@@ -53,4 +53,5 @@ void PrintNames(const vector<string>& names)
 	{
 		cout << names.at(i) << endl;
 	}
+	return;
 }
