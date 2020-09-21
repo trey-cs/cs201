@@ -35,7 +35,7 @@ void InputNames(vector<string> & names)
 
 bool DoesNameExist(const string & nameToFind, const vector<string> & names)
 {
-	if (find(names.begin(), names.end(), nameToFind) != names.end())
+	if (find(names.begin(), names.end(), nameToFind) != names.end()) // find is a default function in <algorithm> library
 	{
 		cout << "The name " << nameToFind << " exists in the list.\n" << endl;
 		return true;
@@ -63,7 +63,7 @@ void ReverseNames(const vector<string>& names)
 	cout << "Here is your original list with each name reversed:\n";
 	for (int i = 0; i < names.size(); i++)
 	{
-		string rvs = names.at(i);
+		string rvs = names.at(i); 
 		for (int j = rvs.length() - 1; j >= 0; j--)
 		{
 			cout << rvs[j];
