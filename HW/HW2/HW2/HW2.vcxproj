@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HW2.cpp" />
+    <ClCompile Include="names.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="namesio.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

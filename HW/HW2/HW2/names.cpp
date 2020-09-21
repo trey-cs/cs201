@@ -15,6 +15,7 @@ using std::endl;
 using std::string;
 using std::vector;
 using std::getline;
+using std::cin;
 
 int main(int argc, char **argv)
 {
