@@ -3,7 +3,7 @@
 * Trey Chiu
 * CS201
 * Sep 20, 2020
-* Will input 10 names into a vector container
+*Input 10 names from user into a vector container, print the names, tell if name exists in vector, and print list of reversed names.
 */
 
 #include "namesio.h"
@@ -15,9 +15,6 @@ using std::vector;
 using std::string;
 using std::cout;
 using std::endl;
-
-
-
 
 int main()
 {
