@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e1adce3b-69a1-4bdb-9427-3d26d55459d0}</ProjectGuid>
-    <RootNamespace>HW2Practce</RootNamespace>
+    <ProjectGuid>{492ac47b-68d8-4902-9991-6f0622ce8354}</ProjectGuid>
+    <RootNamespace>money</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HW2Practice.cpp" />
+    <ClCompile Include="money.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
