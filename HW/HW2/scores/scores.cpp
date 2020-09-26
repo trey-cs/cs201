@@ -17,34 +17,7 @@ using std::getline;
 using std::string;
 using std::vector;
 
-/*void PrintNameScore(vector<string>&names, vector<int>&scores)
-{
-	cout << "Here is your list of names:\n";
-	for (int i = 0; i < names.size(); i++)
-	{
-		cout << names.at(i) << " " << scores.at(i) << endl;
-	}
-	
-	cout << "\n";
-	return;
-}
-*/
 
-/*void GetPairs(vector<string>& names, vector<int>& scores)
-{
-	switch
-	{
-	case: 'NoName 0'
-	{
-		return;
-	}
-	default:
-	{
-		cin >> &names >> &scores;
-	}
-	}
-}
-*/
 int main()
 {
 	cout << "Please enter in a name and score (ex: Jim 32), Type NoName 0 to end input" << endl;
