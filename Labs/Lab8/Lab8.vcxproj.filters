@@ -15,18 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Downloads\intio.cpp">
+    <ClCompile Include="intio.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lab8.cpp">
+    <ClCompile Include="Lab8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lab8_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Downloads\intio.hpp">
+    <ClInclude Include="intio.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lab8.h">
+    <ClInclude Include="Lab8.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

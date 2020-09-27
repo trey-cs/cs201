@@ -1,17 +1,15 @@
-/*
-* lab8.cpp
-* Trey Chiu
-* CS201
-* Sep 26, 2020
-* asfasfa
-*/
-
 #include "intio.hpp"
+#include "Lab8.hpp"
 #include <iostream>
-using std::cout;
-using std::endl;
 
-void doInput()
+int doInput()
 {
+	int x = getInt();
+	return x;
+}
 
+int compute(int &value)
+{
+	int x = value * value;
+	return x;
 }
