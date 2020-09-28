@@ -8,12 +8,16 @@
 
 #include "boxer.hpp"
 #include <iostream>
+#include <string>
 using std::cout;
 using std::cin;
+using std::string;
 using std::endl;
 
-void getString()
+void getString(string & str1)
 {
+	cout << "Please input a string: " << endl;
+	cin >> str1;
 	return;
 }
 
