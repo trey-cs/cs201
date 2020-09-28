@@ -1,3 +1,4 @@
+#include <iostream>
 #include <string>
 
 #ifndef FILE_BOXER_HPP_INCLUDED
@@ -5,7 +6,7 @@
 
 void getString(std::string & str1);
 
-void getInt();
+void getInt(int & int1);
 
 //void PrintBox()
 

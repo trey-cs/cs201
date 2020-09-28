@@ -17,9 +17,10 @@ using std::endl;
 int main()
 {
 	string str1;
-	getInt();
+	int int1;
 	getString(str1);
-	cout << str1 << endl;
+	getInt(int1);
+	cout << str1 << int1 << endl;
 	cout << "Press ENTER to quit ";
 	while (cin.get() != '\n');
 }

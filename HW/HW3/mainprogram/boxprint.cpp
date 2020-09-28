@@ -21,7 +21,9 @@ void getString(string & str1)
 	return;
 }
 
-void getInt()
+void getInt(int & int1)
 {
+	cout << "Please input an positive integer: " << endl;
+	cin >> int1;
 	return;
 }
