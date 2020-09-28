@@ -3,7 +3,7 @@
 * Trey Chiu
 * CS201
 * Sep 27, 2020
-* purose
+* Demonstrates encapsulated string modification by appending integer and prints result w/length
 */
 
 #include "modifyString.hpp"
@@ -18,7 +18,6 @@ using std::endl;
 int modifyString(string & referencedString, int n)
 {
 	referencedString += to_string(n%2);
-	//cout << referencedString.size() << endl;
 	return referencedString.size();
 }
 
