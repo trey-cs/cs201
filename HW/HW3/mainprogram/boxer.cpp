@@ -16,14 +16,17 @@ using std::endl;
 
 int main()
 {
-	string str1;
-	int int1;
-	getString(str1);
-	getInt(int1);
-	cout << str1 << int1 << endl;
+	string control;
+	while (control != "stop")
+	{
+		string str1;
+		int int1;
+		getString(str1);
+		getInt(int1);
+		PrintBox(str1, int1);
 
-	PrintBox(str1, int1);
-
-	cout << "Press ENTER to quit ";
-	while (cin.get() != '\n');
+		cout << "Type 'stop' and press ENTER to quit or type anything else and press ENTER to continue the fun!" << endl;
+		cin >> control;
+	}
+	return 0;
 }
