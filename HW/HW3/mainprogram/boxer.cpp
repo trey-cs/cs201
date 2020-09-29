@@ -21,6 +21,9 @@ int main()
 	getString(str1);
 	getInt(int1);
 	cout << str1 << int1 << endl;
+
+	PrintBox(str1, int1);
+
 	cout << "Press ENTER to quit ";
 	while (cin.get() != '\n');
 }

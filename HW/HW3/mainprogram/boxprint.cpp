@@ -36,3 +36,50 @@ void getInt(int & int1)
 		cout << "Ehh, Almost. Please input a positive integer: " << endl;
 	}
 }
+
+void PrintBox(string PrintedText, int PrintedInt)
+{
+	int i, j;
+	for (j = 0; j < PrintedInt; j++) // prints top "*" rows
+	{
+		for (i = 0; i <= PrintedText.size() + 2 + (PrintedInt*2-1); i++) // prints "*" line
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+	int k, l, m, n;
+	for (k = 0; k < 3; k++) // Middle box
+	{
+		for (l = 0; l < PrintedInt; l++)
+		{
+			cout << "*";
+		}
+		if (k == 1)
+		{
+			cout << " " << PrintedText << " ";
+		}
+		else
+		{
+			for (m = 0; m < PrintedText.size() + 2; m++)
+			{
+				cout << " ";
+			}
+		}
+		for (n = 0; n < PrintedInt; n++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+	int o, p;
+	for (p = 0; p < PrintedInt; p++) // prints bottom "*" rows
+	{
+		for (o = 0; o <= PrintedText.size() + 2 + (PrintedInt * 2 - 1); o++) // prints "*" line
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+	return;
+}
