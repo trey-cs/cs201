@@ -3,12 +3,14 @@
 * Trey Chiu
 * CS201
 * Sep 29, 2020
-* purose
+* Asks user for integer, completes and displays output of Collatz function, then asks for more input
 */
 
 #include <iostream>
+#include <string>
 using std::cout;
 using std::cin;
+using std::string;
 using std::endl;
 
 void getInt(int& int1)
@@ -28,20 +30,25 @@ void getInt(int& int1)
 int main()
 {
 	int n;
-
+	string control;
+	while (control != "stop")
+	{
 		getInt(n);
 		cout << n << " ";
 		while (n != 1)
 		{
-		
+
 			if (n % 2 == 0)
 			{
 				n = n / 2;
 			}
 			else
-			{ 
-				n = n*3 + 1;
+			{
+				n = n * 3 + 1;
 			}
 			cout << n << " ";
 		}
+		cout << "\nType 'stop' and press ENTER to quit or type anything else to continue" << endl;
+		cin >> control;
+	}
 }
