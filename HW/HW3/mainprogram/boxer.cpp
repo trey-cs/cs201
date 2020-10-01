@@ -26,7 +26,8 @@ int main()
 		getInt(int1);
 		PrintBox(str1, int1);
 
-		cout << "Type 'stop' and press ENTER to quit or type anything else and press ENTER to continue the fun!" << endl;
+		cout << "Type 'stop' and press ENTER to quit or type anything "
+			<<  "else and press ENTER to continue the fun!" << endl;
 		cin >> control;
 	}
 	return 0;

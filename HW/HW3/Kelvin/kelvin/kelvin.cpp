@@ -28,10 +28,13 @@ double ctok(double c)
 
 int main()
 {
+	cout << "Enter a temperature in degrees Celcius to convert to Kelvin"
+		<< endl;
 	double c = 0;
 	cin >> c;
 	double k = ctok(c);
-	cout << k << '\n';
+	cout << "Here is your Celcius temperature in degrees Kelvin: "
+		<<  k << '\n';
 }
 
 /* Error list for original program:

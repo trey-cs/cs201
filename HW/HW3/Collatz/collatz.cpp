@@ -3,7 +3,8 @@
 * Trey Chiu
 * CS201
 * Sep 29, 2020
-* Asks user for integer, completes and displays output of Collatz function, then asks for more input
+* Asks user for integer, completes and displays 
+* output of Collatz function, then asks for more input
 */
 
 #include <iostream>
@@ -48,7 +49,8 @@ int main()
 			}
 			cout << n << " ";
 		}
-		cout << "\nType 'stop' and press ENTER to quit or type anything else to continue" << endl;
+		cout << "\nType 'stop' and press ENTER to quit"
+			<< " or type anything else to continue" << endl;
 		cin >> control;
 	}
 }
