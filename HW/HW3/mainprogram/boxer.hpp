@@ -1,3 +1,11 @@
+/*
+* boxer.hpp
+* Trey Chiu
+* CS201
+* Sep 27, 2020
+* Defines functions used in boxer.cpp
+*/
+
 #include <iostream>
 #include <string>
 

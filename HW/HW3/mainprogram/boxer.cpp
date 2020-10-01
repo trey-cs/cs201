@@ -3,7 +3,8 @@
 * Trey Chiu
 * CS201
 * Sep 27, 2020
-* purose
+* Takes string and integer as input, prints string inside box
+* with integer number of layers.
 */
 
 #include "boxer.hpp"

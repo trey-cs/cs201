@@ -1,9 +1,9 @@
 /*
-* boxer.cpp
+* boxprint.cpp
 * Trey Chiu
 * CS201
 * Sep 27, 2020
-* purose
+* Defines functions used in boxer.cpp
 */
 
 #include "boxer.hpp"
@@ -42,14 +42,14 @@ void PrintBox(string PrintedText, int PrintedInt)
 	int i, j;
 	for (j = 0; j < PrintedInt; j++) // prints top "*" rows
 	{
-		for (i = 0; i <= PrintedText.size() + 2 + (PrintedInt*2-1); i++) // prints "*" line
+		for (i = 0; i <= PrintedText.size() + 2 + (PrintedInt*2-1); i++)
 		{
 			cout << "*";
 		}
 		cout << endl;
 	}
 	int k, l, m, n;
-	for (k = 0; k < 3; k++) // Middle box
+	for (k = 0; k < 3; k++) // prints middle portion of box with string
 	{
 		for (l = 0; l < PrintedInt; l++)
 		{
@@ -73,9 +73,9 @@ void PrintBox(string PrintedText, int PrintedInt)
 		cout << endl;
 	}
 	int o, p;
-	for (p = 0; p < PrintedInt; p++) // prints bottom "*" rows
+	for (p = 0; p < PrintedInt; p++) // prints bottom "*" rows in box
 	{
-		for (o = 0; o <= PrintedText.size() + 2 + (PrintedInt * 2 - 1); o++) // prints "*" line
+		for (o = 0; o <= PrintedText.size() + 2 + (PrintedInt * 2 - 1); o++)
 		{
 			cout << "*";
 		}
