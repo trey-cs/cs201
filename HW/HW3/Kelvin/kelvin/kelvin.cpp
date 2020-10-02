@@ -39,22 +39,18 @@ int main()
 
 /* Error list for original program:
 * 
-* Note: I am assuming user has access to source code
-* and so am intentionally ignoring the lack of prompts and contextual
-* information displayed to users, but they are nonetheless errors.
-* 
-* original function ctok errors:
+* Original function ctok errors:
 * 
 * return type illegal(original returns int)
 * in function ctok - int k should be double k(int k rounds to nearest int value)
 * function ctok must return variable k(original return lacks variable)
 * 
-* original int main() errors:
+* Original int main() errors:
 * 
 * cin to unidentified variable d
 * ctok("c") - function parameter is not char, it is double
 * Cout - C must not be capitalized
-* '/n' is not the escape character and returns an int - '\n' is the escape character
-* 
+* '/n' is not the escape character and returns an int - 
+*				'\n' is the escape character
 * 
 */
