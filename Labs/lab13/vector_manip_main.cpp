@@ -26,7 +26,7 @@ int main() {
 	//     Access each string by-reference and make it constant.
 	for (string i : words)
 	{
-		std::cout << i << std::endl;
+		std::cout << i << " ";
 	}
 	std::cout << std::endl;
 	std::cout << "-------------------Additional 1----------------------"
