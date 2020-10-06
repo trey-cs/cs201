@@ -1,5 +1,5 @@
 /*
-* substring.cpp
+* substring.hpp
 * Trey Chiu
 * CS201
 * Oct 4, 2020

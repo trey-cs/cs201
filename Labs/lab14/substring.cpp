@@ -20,7 +20,7 @@ void getWord(string & word) {
 }
 
 void printSubWord(string& word) {
-	for (int i = 0; i < word.size(); i++) // == How to use range based for loop here? 
+	for (auto i : word) // == How to use range based for loop here? 
 	{
 		cout << word.substr(i) << endl;
 	}
